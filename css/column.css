@@ -1,0 +1,495 @@
+@charset "utf-8";
+
+#headline {
+	width: 100%;
+	min-width: 1263px;
+	height: 365px;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)) ,url(../img/headline.jpg) no-repeat center;
+}
+
+#headline .center {
+	width: 1263px;
+	height: 365px;
+	margin: 0 auto;
+}
+
+#headline hgroup {
+	padding: 100px 0 0 50px;
+}
+
+#headline h2 {
+	color: #eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+
+#headline h3 {
+	color: #eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#container {
+	width: 1263px;
+	margin: 30px auto;
+}
+
+
+#container .sidebar {
+	width: 340px;
+	float: right;
+}
+
+#container .sidebox {
+	border:1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+#container .sidebox h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	height: 40px;
+	line-height: 40px; 
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+
+#container .tag {
+	margin: 10px 0;
+}
+
+#container .tag li {
+	display: inline-block;
+	width: 100px;
+	background-color: #eee;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	text-align: left;
+}
+
+#container .tag a {
+	display: block;
+	color: #999;
+}
+#container .tag a:hover {
+	background-color: #458b00;
+	color: white;
+}
+
+#container figure {
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+
+#container .figure {
+	padding:10px 0;
+}
+#container .figure img {
+	width: 150px;
+	height: 120px;
+}
+
+#container .box {
+	margin: 10px 0;
+}
+
+#container .box a {
+	display: inline-block;
+	width: 150px;
+	background-color: #eee;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	color: #999;
+	text-indent: 40px;
+	text-align: left;
+}
+
+#container .box a.trea1 {
+	background:#eee url(../img/t1.png) no-repeat 10px center;
+}
+
+#container .box a.trea2 {
+	background:#eee url(../img/t2.png) no-repeat 10px center;
+}
+
+#container .box a.trea3 {
+	background:#eee url(../img/t3.png) no-repeat 10px center;
+}
+#container .box a.trea4 {
+	background:#eee url(../img/t4.png) no-repeat 10px center;
+}
+#container .list {
+	width: 910px;
+	float: left;
+}
+
+#container .infor {
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 10px 0;
+}
+
+#container .information .left {
+	float: left;
+	display: inline-block;
+}
+
+#container .information .left li {
+	display: inline-block;
+	width: 150px;
+	height: 43px;
+	line-height: 45px;
+	text-align: center;
+
+}
+
+#container .information .left li a {
+	color: #666;
+}
+
+#container .information .left li:first-child {
+	background-color: #fff;
+	border-top: 2px solid green;
+	position: relative;
+	left: 1px;
+
+}
+
+#container .information .right {
+	float: right;
+	display: inline-block;
+	padding:  0 20px 0 0;
+}
+
+#container .information .right li {
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+
+#container .information .right a {
+	padding: 3px 8px;
+	color: #666;
+}
+
+#container .information .right a.selected,#container .information .right a:hover {
+	background-color: #458b00;
+	color: #fff;
+}
+
+#container .tour {
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border:1px solid #eee;
+	position: relative;
+}
+
+#container .tour img ,#container .scenery img{
+	width: 350px;
+	height: 260px;
+	float: left;
+}
+
+#container .tour figcaption {
+	width:558px;
+	height: 260px;
+	float: right;
+}
+
+#container .tour hgroup {
+	width: 300px;
+}
+
+#container .tour h2 {
+	font-size: 24px;
+	color: #333;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+
+#container .tour h3 {
+	font-size: 16px;
+	color: #666;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+}
+
+#container .tour ol {
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height: 2;
+}
+
+#container .tour mark {
+	background-color: #fff;
+	border:1px solid #458b00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458b00;
+}
+
+#container .tour .buy {
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+
+#container .tour .price {
+	color: #f60;
+	font-size: 20px;
+}
+
+#container .tour .price strong {
+	font-size: 36px;
+}
+
+#container .tour .price s {
+	font-size: 16px;
+	color: #999;
+}
+
+#container .tour .reserve {
+
+}
+
+#container .tour .reserve a {
+	display: inline-block;
+	width: 152px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#container .tour .type {
+	background-color: #59b200;
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#container .tour .disc {
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	background: url(../img/disc1.png);
+	top: 0;
+	right:1px;
+}
+
+#container .information .more,#container .scenery .more {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin:0 auto;
+	background-color: white;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #666;
+}
+#container .tour footer {
+	width:558px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent:25px;
+	position: absolute;
+	bottom:0;
+}
+
+#container .tour time {
+	color: #458b00;
+}
+
+#container .ticket,#container .scenery,#container .about {
+	font-size: 20px;
+	color: #666;
+}
+
+#container .ticket h2,#container .scenery h2,#container .about h2{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding:0 0 15px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#container .ticket .type {
+	margin:20px 0 10px 0;
+}
+
+#container .ticket .type mark {
+	color: #fff;
+	background-color: #458b00;
+	padding:5px 8px;
+	border-radius: 4px;
+	margin:0 10px 0 16px;
+}
+
+#container .ticket .left {
+	display: inline-block;
+	width: 43%;
+}
+
+#container .ticket .right {
+	display: inline-block;
+	width: 43%;
+}
+
+#container .ticket .button {
+	display: inline-block;
+	width: 9%;
+}
+#container .ticket form p {
+	line-height: 3;
+}
+
+#container .ticket .submit {
+	display: block;
+	width: 90px; 
+	height: 90px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 6px;
+	position: relative;
+	top: -29px;
+	cursor:pointer;
+	border: none;
+}
+#container .ticket form input {
+	width: 250px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 4px;
+	border:1px solid #ccc;
+	color: #666;
+	padding: 5px;
+	margin: 0 0 0 16px;
+	font-size: 18px;
+}
+
+#container .ticket .new {
+	margin:20px 0 0 0 ;
+}
+
+#container .ticket .new ul {
+	margin: 20px 0 0 0;
+}
+
+#container .ticket .new li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+#container .ticket .new li:first-child {
+	padding-left: 0;
+}
+
+#container .ticket .new li:nth-child(2) {
+	background-color: #458b00;
+	color: white;
+	border-radius: 4px;
+}
+
+#container .ticket table {
+	margin: 20px 0 0 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+#container .ticket th {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+
+#container .ticket td {
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+#container .ticket tr:nth-child(2n) {
+	background-color: #fafafa;
+}
+
+#container .ticket tr:hover {
+	background-color: #eee;
+}
+
+#container .ticket .price {
+	color: #f60;
+}
+
+#container .ticket .more {
+	color: #666;
+}
+
+#container .ticket .reserve {
+	display: inline-block;
+	width: 80px; 
+	height: 35px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 6px;
+	cursor:pointer;
+	border: none;
+}
+
+#container .scenery figure {
+	border:1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;   /*比较合适的间距*/
+	text-align: left;
+	position: relative;
+}
+
+#container .scenery figcaption {
+	text-align: center;
+	padding: 5px 0;
+}
+
+#container .about p {
+	line-height: 2;
+	margin: 20px 0;
+}
+
+#container .about address {
+	line-height: 1.6;
+	font-style: normal;
+	margin: 20px 0;
+}

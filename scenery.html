@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ch-zn">
+<head>
+	<meta charset="utf-8">
+	<title>实战1-pc端固定布局</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<link rel="stylesheet" type="text/css" href="css/column.css">
+</head>
+<body>
+
+<header id="header">     <!-- div ,header不需要h1-h6 -->
+	<div class="center">  <!-- body,section和nav 需要h1-h6 -->
+		<h1 class="logo">旅行社</h1>
+		<nav class="link">
+			<h2 class="none">网站导航</h2>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="information.html">旅游咨询</a></li>
+				<li><a href="ticket.html">机票订购</a></li>
+				<li  class="active"><a href="scenery.html">风景欣赏</a></li>
+				<li><a href="about.html">公司简介</a></li>
+			</ul>
+		</nav>
+	</div>
+</header> 
+
+<div id="headline">
+	<div class="center">
+		<hgroup>   <!-- 管理多个标题 -->
+			<h2>旅游资讯</h2>
+			<h3>介绍各种最新旅游信息、咨询要闻、景点攻略等等</h3>
+		</hgroup>
+	</div>
+</div>
+
+<div id="container">
+	<aside class="sidebar">
+		<div class="sidebox recommend">
+			<h2>景点推荐</h2>
+			<div class="tag">
+				<ul>
+				<li><a href="###">曼谷(12)</a></li>
+				<li><a href="###">东京(5)</a></li>
+				<li><a href="###">漓江(16)</a></li>
+				<li><a href="###">呼伦贝尔(4)</a></li>
+				<li><a href="###">西双版纳(8)</a></li>
+				<li><a href="###">希腊(18)</a></li>
+				<li><a href="###">埃及(11)</a></li>
+				<li><a href="###">新西兰(16)</a></li>
+				<li><a href="###">首尔(9)</a></li>
+				<li><a href="###">毛里求斯(7)</a></li>
+				<li><a href="###">埃及(11)</a></li>
+				<li><a href="###">斯里兰卡(7)</a></li>
+				<li><a href="###">吉普岛(4)</a></li>
+				<li><a href="###">迪拜(14)</a></li>
+				<li><a href="###">大阪(15)</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sidebox hot">
+			<h2>热卖旅游</h2>
+			<div class="figure">
+				<figure>
+					<img src="img/tour1.jpg" alt="曼谷-芭提雅6日游">
+					<figcaption>曼谷-芭提雅6日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour2.jpg" alt="富山大阪东京8日游">
+					<figcaption>富山大阪东京8日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour3.jpg" alt="法瑞意德12日游">
+					<figcaption>法瑞意德12日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour4.jpg" alt="花样土耳其10日游">
+					<figcaption>花样土耳其10日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour5.jpg" alt="马尔代夫双鱼6日游">
+					<figcaption>马尔代夫双鱼6日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour6.jpg" alt="塞舌尔迪拜9日游">
+					<figcaption>塞舌尔迪拜9日游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour7.jpg" alt="巴厘岛6日半游">
+					<figcaption>巴厘岛6日半游</figcaption>
+				</figure>
+				<figure>
+					<img src="img/tour8.jpg" alt="海南双飞5日游">
+					<figcaption>海南双飞5日游</figcaption>
+				</figure>
+			</div>
+		</div>
+		<div class="sidebox treasure">
+			<h2>旅游百宝箱</h2>
+			<div class="box">
+				<a href="###" class="trea1">天气预报</a>
+				<a href="###" class="trea2">航班查询</a>
+				<a href="###" class="trea3">火车票查询</a>
+				<a href="###" class="trea4">地铁线路查询</a>
+			</div>
+		</div>
+	</aside>
+	<div class="list scenery">
+		<section>
+			<h2>风景欣赏</h2>
+			<figure>
+				<img src="img/tour1.jpg" alt="欧洲风情6日游">
+				<figcaption>
+					欧洲风情[共8张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour2.jpg" alt="马尔代夫双鱼岛[共12张]">
+				<figcaption>
+					马尔代夫双鱼岛[共12张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour3.jpg" alt="海南[共19张]">
+				<figcaption>
+					海南[共19张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour4.jpg" alt="富山-大阪-东京[共22张]">
+				<figcaption>
+					富山-大阪-东京[共22张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour5.jpg" alt="法瑞意德[共31张]">
+				<figcaption>
+					法瑞意德[共31张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour6.jpg" alt="巴厘岛[共12张]">
+				<figcaption>
+					巴厘岛[共12张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour7.jpg" alt="塞舌尔迪拜[共7张]">
+				<figcaption>
+					塞舌尔迪拜[共7张]
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="img/tour8.jpg" alt="花样姐姐土耳其[共14张]">
+				<figcaption>
+					花样姐姐土耳其[共14张]
+				</figcaption>
+			</figure>
+		</section>
+		<div class="more">加载更多...</div>
+	</div>
+</div>
+
+<footer id="footer">
+	<div class="top">
+		<div class="left block">
+			<h2>合作伙伴</h2>
+			<hr>
+			<ul>
+				<li>合作伙伴1</li>
+				<li>合作伙伴2</li>
+				<li>合作伙伴3</li>
+				<li>合作伙伴4</li>
+			</ul>
+		</div>
+		<div class="center block">
+			<h2>旅游FAQ</h2>
+			<hr>
+			<ul>
+				<li>旅游合同签订方式？</li>
+				<li>儿童价制定方式？</li>
+				<li>旅游的线路品质怎么界定的？</li>
+				<li>单房差是什么？</li>
+			</ul>
+		</div>
+		<div class="right block">
+			<h2>联系方式</h2>
+			<hr>
+			<ul>
+				<li>QQ:1016923651</li>
+				<li>邮箱：1016923651@qq.com</li>
+				<li>地址：华南理工大学C12栋</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="bottom">
+		Copyright © lalala | 苏ICP备123456789号 | 旅行社经营许可证：Lyj12345
+	</div>
+</footer>
+
+</body>
+</html>

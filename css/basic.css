@@ -1,0 +1,116 @@
+@charset "uft-8";
+
+body,h1,ul,h2,h3,p,ol,figure{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+ul,ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+
+.none {
+	display: none;
+}
+#header {
+	width: 100%;
+	min-width: 1263px;  /* 防止自适应丢失内容*/
+	height: 70px;
+	background-color: #333;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);   /*下面三句结合形成阴影*/
+	position: relative;
+ 	z-index: 9999;
+}
+
+#header .center {
+	width: 1263px;   /*设置宽度让页面不会变形*/
+	height: 70px;
+	margin: 0 auto;
+}
+
+#header .logo {
+	width: 133px;
+	height: 70px;
+	background-image: url(../img/logo.png);
+	text-indent: -9999px;  /*将标题文字隐藏技巧*/
+	float: left;
+}
+
+#header .link {
+	width: 650px;
+	height: 70px;
+	float: right;
+	color: #eee;
+	line-height: 70px;  /*导航栏垂直居中*/
+}
+
+#header .link li  {
+	float: left;   /*导航栏水平排列*/
+	width: 120px;
+	text-align: center;  /*导航栏水平居中*/
+}
+
+#header .link a {
+	color: #eee;
+	display: block;   /*变成块状元素使得整块区域可点击*/
+}
+/*  hover 是鼠标浮动样式*/
+#header .link a:hover, 
+#header .active a {
+	background-color: black;
+}
+
+#footer {
+	height: 330px;
+	background-color: #222;
+	clear: both;  /*清理浮动元素,此时margin失效，要用相对定位设定距离*/
+	position: relative;
+	top:20px;
+}
+
+#footer .top {
+	width: 1263px;
+	height: 250px;
+	margin: 0 auto; /*块级元素水平居中*/
+	text-align: center;
+}
+
+#footer .block {
+	width: 410px;
+	height: 250px;
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	vertical-align: top;
+}
+
+#footer h2 {
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px  0  0 20px;
+}
+
+#footer hr {
+	width: 90%;
+}
+
+#footer ul {
+	font-size: 18px;
+	color: #777;
+	text-indent: 20px;
+	line-height: 2;
+}
+#footer .bottom {
+	line-height: 80px;  /*设置行高，垂直居中*/
+	height: 80px;
+	background-color: #000;
+	text-align: center;
+	color: #777;
+	border-top: 1px solid #444;
+}
